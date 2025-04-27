@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manya - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <h3>Manya</h3>
+        
+    <h5 class ="bio">"Turning ideas into code"</h5>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#services"><i class="fas fa-briefcase"></i> Services</a></li>
+        <li><a href="#portfolio"><i class="fas fa-folder-open"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      
+      <!-- Home Section -->
+     <!-- Home Section -->
+<section class="section home-section active" id="home">
+    <div class="home-container"> <!-- ADDED a flex container -->
+      
+      <div class="intro-text">
+        <div class="intro">
+          <h1>Hello! I'm <span>Manya Mangla</span></h1>
+        </div>
+      
+        <h1>I'm a <span class="typed-text"></span><span class="cursor">|</span></h1>
+    
+        <p>
+          I'm a passionate Computer Science student specializing in Cloud Computing and Virtualization.
+          Skilled in full-stack development, APIs and cloud deployment, I build scalable and user-friendly applications.<br>
+          I love blending creativity with technology and I'm always excited to bring new ideas to life!
+        </p>
+        <button class="about-btn" id="moreAboutBtn">More About Me</button>
+     
+      </div>
+  
+      <div class="profile-pic">
+        <div class="frame-corners">
+          <img src="manya_photo.jpg" alt="Profile Photo">
+          <span class="corner top-left"></span>
+          <span class="corner top-right"></span>
+          <span class="corner bottom-left"></span>
+          <span class="corner bottom-right"></span>
+        </div>
+      </div>
+  
+    </div> <!-- end of home-container -->
+  </section>
+  
+
+      <!-- About Section -->
+      <section class="section about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>I'm Manya Mangla and <span>Web Developer</span></h3>
+            <p>
+              I'm a passionate developer who loves creating dynamic, user-friendly websites and applications. I'm currently diving deeper into Cloud Computing and Virtualization!
+            </p>
+
+            <div class="info">
+              <div><strong>Birthday:</strong> 16 Oct 2004</div>
+              <div><strong>Age:</strong> 21</div>
+              <div><strong>Email:</strong> manyamangla16@example.com</div>
+              <div><strong>Degree:</strong> B.Tech CSE (CCVT)</div>
+              <div><strong>Phone:</strong> +91 7982236406</div>
+              <div><strong>City:</strong> FARIDABAD</div>
+              
+            </div>
+
+            <div class="skills">
+              <div class="skill-bar">
+                <span>HTML</span>
+                <div class="bar"><div class="progress" style="width: 95%;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <span>CSS</span>
+                <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-bar">
+                <span>JavaScript</span>
+                <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="timeline-section">
+            <div class="timeline-column">
+              <h3 class="timeline-title">Education</h3>
+              <div class="timeline-item">
+                <div class="dot"></div>
+                <div class="timeline-content">
+                  <h4><i class="fa fa-calendar"></i> 2022 - 2026</h4>
+                  <h3>B.Tech in Computer Science(UPES)</h3>
+                  <p>Specialized in Cloud Computing & Virtualization. Learned full-stack development, data structures, and system design.</p>
+                </div>
+              </div>
+              <!-- Add more education items here if needed -->
+            </div>
+          
+            <div class="timeline-column">
+              <h3 class="timeline-title">Experience</h3>
+              <div class="timeline-item">
+                <div class="dot"></div>
+                <div class="timeline-content">
+                  <h4><i class="fa fa-calendar"></i> June 2023 - July 2023</h4>
+                  <h3>Social Intern</h3>
+                  <p>Conducted educational classes for underprivileged children.</p>
+                </div>
+              </div>
+              <!-- Add more experience items here if needed -->
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- (You can add similar <section id="services">, <section id="portfolio">, <section id="contact"> ) -->
+        <section class="section services" id="services">
+
+            <h2 class="section-title">Services</h2>
+            <div class="services-container">
+          
+              <div class="service-box">
+                <i class='bx bx-code-alt service-icon'></i>
+                <h3>Full-Stack Development</h3>
+                <p>Responsive web apps using React.js, Node.js, and MongoDB.</p>
+              </div>
+          
+              <div class="service-box">
+                <i class='bx bx-cloud service-icon'></i>
+                <h3>Cloud Solutions</h3>
+                <p>Deploy and scale apps on AWS and Google Cloud.</p>
+              </div>
+          
+              <div class="service-box">
+                <i class='bx bx-server service-icon'></i>
+                <h3>Data Engineering</h3>
+                <p>Managing databases, building ETL pipelines, and handling large-scale data processing.</p>
+            </div>
+            
+            <div class="service-box">
+                <i class='bx bx-code service-icon'></i>
+                <h3>Devops</h3>
+                <p>Implementing CI/CD pipelines, using Docker for containerization, and automating deployments.</p>
+            </div>
+            
+            <div class="service-box">
+                <i class='bx bx-paint service-icon'></i>
+                <h3>UI/UX Design</h3>
+                <p>Clean, creative designs with Tailwind CSS & Canva.</p>
+            </div>
+            
+            <div class="service-box">
+                <i class='bx bx-brain service-icon'></i>
+                <h3>Machine Learning</h3>
+                <p>Focused on building intelligent ML models, integrating AI-driven solutions, and optimizing data-driven apps.</p>
+            </div>
+            
+          
+            </div>
+          </section>
+
+
+
+          <section class="section portfolio" id="portfolio">
+            <h2 class="heading">My Last <span>Projects</span></h2>
+          
+            <div class="portfolio-container">
+              <div class="portfolio-box">
+                <img src="github.png" alt="Project 1">
+                <div class="portfolio-layer">
+                  <h4>Docker-Container Projects</h4>
+                  <p>A collection of containerized experiments, mastering Docker for scalability.</p>
+                  <a href="https://github.com/manya1604/Docker-Container-Projects"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+          
+              <div class="portfolio-box">
+                <img src="streamlitdashboard.png" alt="Project 2">
+                <div class="portfolio-layer">
+                  <h4>Streamlit Dashboard</h4>
+                  <p>This interactive Streamlit web app provides a seamless experience for data exploration and visualization.</p>
+                  <div class="project-links"> <!-- new wrapper div -->
+                    <!-- Live Project Link -->
+                    <a href="https://appapp-data-visualisation-and-exploration-3ymq9vvs7thfe39i7fxw.streamlit.app/" target="_blank">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+            
+                    <!-- GitHub Link -->
+                    <a href="https://github.com/manya1604/Streamlit_App-Data-visualisation-and-exploration" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                </div>
+              </div>
+          
+              <div class="portfolio-box">
+                <img src="binary.png" alt="Project 3">
+                <div class="portfolio-layer">
+                  <h4>Binary Classification Web App</h4>
+                  <p>Machine learning web application built with Streamlit to classify mushrooms as edible or poisonous.</p>
+                  <div class="project-links"> <!-- new wrapper div -->
+                    <!-- Live Project Link -->
+                    <a href="https://binaryclassificationwebapp-2bpzeehzq8pbonvak5cen9.streamlit.app/" target="_blank">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+            
+                    <!-- GitHub Link -->
+                    <a href="https://github.com/manya1604/Binary_Classification_WebApp" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                </div>
+              </div>
+
+
+
+
+
+              <div class="portfolio-box">
+                <img src="titanic.png" alt="Project 3">
+                <div class="portfolio-layer">
+                  <h4>Titanic Survival Predictor </h4>
+                  <p>A machine learning model predicting survival chances on the Titanic using Python and scikit-learn.</p>
+                  <div class="project-links"> <!-- new wrapper div -->
+                    <!-- Live Project Link -->
+                    <a href="https://binaryclassificationwebapp-2bpzeehzq8pbonvak5cen9.streamlit.app/" target="_blank">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+            
+                    <!-- GitHub Link -->
+                    <a href="https://github.com/manya1604/Docker-Container-Projects/tree/main/Titanic%20Survival%20Predictor%20Containerized%20Streamlit%20App" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+              <div class="portfolio-box">
+                <img src="cloud.png" alt="Project 3">
+                <div class="portfolio-layer">
+                  <h4>VisuaLearn</h4>
+                  <p>A Streamlit-based application designed to interpret machine learning models using SHAP values.</p>
+                  <div class="project-links"> <!-- new wrapper div -->
+                    <!-- Live Project Link -->
+                    <a href="https://visualearnapp-r7gkwrhsjdkmdsmfqrjwun.streamlit.app/" target="_blank">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+            
+                    <!-- GitHub Link -->
+                    <a href="https://github.com/manya1604/VisuaLearn_Streamlit" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+            </div>
+          </section>
+          
+          
+
+       <!-- Contact Section -->
+       <section class="section contact" id="contact">
+        <div class="section-header">
+            <h1>Contact Me</h1>
+        </div>
+    
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Have You Any Questions?</h2>
+                <p>I'm At Your Service</p>
+            </div>
+    
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Me On</h3>
+                    <p>+91-7982236406</p>
+                </div>
+    
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>Faridabad, Haryana</p>
+                </div>
+    
+                <div class="info-box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>manyamangla16@gmail.com</p>
+                </div>
+    
+              
+            </div>
+    
+            <div class="contact-email">
+                <h2>SEND ME AN EMAIL</h2>
+                <p>I'm Very Responsive To Messages</p>
+    
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+          
+
+    </main>
+  </div>
+  <!-- other HTML -->
+
+  <script>
+    document.getElementById('moreAboutBtn').addEventListener('click', function() {
+      document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+    });
+    </script>
+    
+
+
+  <script src="script.js"></script>
+ 
+    
+</body>
+</html>
